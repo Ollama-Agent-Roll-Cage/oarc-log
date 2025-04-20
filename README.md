@@ -118,6 +118,24 @@ uv venv --python 3.11
 uv pip install -e ".[dev]"
 ```
 
+### Running Tests
+
+Tests for oarc-log use pytest and can be run with the following commands:
+
+```bash
+# Run all tests
+pytest
+
+# Run tests with UV (recommended)
+uv run pytest
+```
+
+When writing new tests, follow these guidelines:
+- Use proper mocking to isolate components
+- Reset logger state in setup_method to prevent test interference
+- Use pytest fixtures when appropriate
+- Write both unit and integration tests
+
 ## Project Structure
 
 ```
