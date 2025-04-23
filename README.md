@@ -1,3 +1,5 @@
+[![Python package](https://github.com/Ollama-Agent-Roll-Cage/oarc-log/actions/workflows/python-package.yml/badge.svg)](https://github.com/Ollama-Agent-Roll-Cage/oarc-log/actions/workflows/python-package.yml)
+
 # oarc-log
 
 A simple Context-Aware Logger for Python that automatically detects which module is generating log messages, making your logs clearer and more useful for debugging.
